@@ -1,14 +1,14 @@
 package lesson1
 
-fun main(){
-    var NumberOfOrders: Int = 75
-    var TextOfThankfullness: String = "Благодарим за покупку!"
-    var NumberOfEmployees: Int = 2000
+fun main() {
+    val numberOfOrders: Int = 75
+    val textOfThankfullness: String = "Благодарим за покупку!"
+    var numberOfEmployees: Int = 2000
 
-    println(NumberOfOrders)
-    println(TextOfThankfullness)
+    println(numberOfOrders)
+    println(textOfThankfullness)
 //    println(NumberOfEmployees)
 
-    NumberOfEmployees = 1999
-    println(NumberOfEmployees)
+    numberOfEmployees = 1999
+    println(numberOfEmployees)
 }
