@@ -8,5 +8,4 @@ fun main() {
     println(salaryOfEmployees)
     println(generalExpenses)
     println(averageSalary)
-
 }
