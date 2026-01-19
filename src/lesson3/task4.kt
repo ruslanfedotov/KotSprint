@@ -3,7 +3,7 @@ package lesson3
 fun main() {
     var moveFrom: String = "E2"
     var moveTo: String = "E4"
-    var moveNumber = 1
+    var moveNumber: Int = 1
 
     println("Ход черных: $moveFrom-$moveTo; $moveNumber")
 
