@@ -1,0 +1,10 @@
+package lesson4
+
+fun main() {
+    val dayOfTraining: Int = 5
+
+    println("""Упражнения для рук: ${dayOfTraining % 2 != 0}      
+Упражнения для ног: ${dayOfTraining % 2 == 0}         
+Упражнения для спины: ${dayOfTraining % 2 == 0}    
+Упражнения для пресса: ${dayOfTraining % 2 != 0} """)
+}
