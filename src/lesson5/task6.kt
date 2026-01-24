@@ -9,12 +9,12 @@ fun main() {
 
     val IMT: Float = weight / ((height / 100) * (height / 100))
 
-    if (IMT < 18.5) {
+    if (IMT < 18.5)
         println("${String.format("%.2f", IMT)}; Недостаточная масса тела.")
-    } else if (IMT >= 18.5 && IMT < 25) {
+    else if (IMT >= 18.5 && IMT < 25)
         println("${String.format("%.2f", IMT)}; Нормальная масса тела.")
-    } else if (IMT >= 25 && IMT < 30) {
+    else if (IMT >= 25 && IMT < 30)
         println("${String.format("%.2f", IMT)}; Избыточная масса тела.")
-    } else
+    else
         println("${String.format("%.2f", IMT)}; Ожирение")
 }
